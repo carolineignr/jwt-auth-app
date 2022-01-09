@@ -1,4 +1,5 @@
 # jwt-auth-app
+Projeto de estudos sobre vuex e vue-router.
 
 ## Project setup
 ```
