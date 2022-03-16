@@ -26,15 +26,10 @@ app.post('/login?', (req, res) => {
     const token = jwt.sign(user, 'chave123');
 
     res.status(200);
-    res.json({
-      token,
-      user
-    })
+    res.json({ token, user })
   } else {
     res.status(403);
-    res.json({
-      message: 'Wrong username or password'
-    });
+    res.json({ message: 'Wrong username or password' });
   }
 })
 

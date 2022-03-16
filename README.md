@@ -1,12 +1,22 @@
 # jwt-auth-app
-Projeto de estudos sobre vuex e vue-router.
+Projeto simples de estudos sobre vuex e vue-router.
 
-## Project setup
+## Instalar as dependências
 ```
 npm install
 ```
 
+## Rodar a API
+
+Abrir um terminal
+
+```
+ node server.js 
+```
+
 ### Compiles and hot-reloads for development
+Abrir um segundo terminal
+
 ```
 npm run serve
 ```
@@ -21,5 +31,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
